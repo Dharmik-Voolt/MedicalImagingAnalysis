@@ -165,5 +165,5 @@ cython_debug/
 COVID-19_Radiography_Dataset
 
 # Models
-covid_classification_model.h5
-covid_classification_model.keras
+*.h5
+*.keras
