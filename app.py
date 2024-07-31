@@ -8,7 +8,7 @@ from PIL import Image
 # Load the saved model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("covid_classification_model.h5")
+    return tf.keras.models.load_model("Models\covid_classification_model.h5")
 
 
 model = load_model()
